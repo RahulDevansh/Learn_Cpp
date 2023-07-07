@@ -1,0 +1,15 @@
+// C++ Program to Print Number Entered by User
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    cout<<" Hello Programmer please enter a number ";
+    cin>>number;
+    cout<<"You have entered : "<<number<<endl;
+
+    return 0;
+}
