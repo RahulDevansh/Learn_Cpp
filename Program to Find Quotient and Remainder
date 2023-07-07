@@ -1,0 +1,19 @@
+// C++ Program to Find Quotient and Remainder
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int num1,num2;
+    cout<<"Hey enter two number which you want to divide "<<endl;
+    cin>>num1>>num2;
+    int remainder =num1%num2;
+    int quotient=num1/num2;
+    
+    cout<<"The quotient and remainder are as follow :"<<remainder<<" , "<<quotient;
+    
+    return 0;
+}
