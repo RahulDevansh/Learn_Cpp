@@ -1,0 +1,27 @@
+// C++ Program to Find All Roots of a Quadratic Equation
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+  int a,b,c;
+  cout<<"Enter the value of a, b and c"<<endl;
+  cin>>a>>b>>c;
+  
+  float dis =(b*b)-4*a*c;
+  float root1,root2;
+  
+  if(dis>0) {
+    root1=(-b+sqrt(dis))/(2*a);
+    root2=(-b-sqrt(dis))/(2*a); 
+    cout<<root1<<" This is root1"<<endl;
+    cout<<root2<<" This is root2"<<endl;
+  }
+  else {
+      cout<<"Sorry cant not have root ";
+  }
+    return 0;
+}
