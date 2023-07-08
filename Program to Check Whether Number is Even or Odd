@@ -1,0 +1,21 @@
+// C++ Program to Check Whether Number is Even or Odd
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int number ;
+cout<<"Enter a number "<<endl;
+cin>>number;
+
+if(number%2==0) {
+    cout<<number<<" The number is Even"<<endl;
+}
+else {
+    cout<<number<<" The number is odd";
+}
+
+    return 0;
+}
