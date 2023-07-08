@@ -1,0 +1,20 @@
+// C++ Program to Check Whether a character is Vowel or Consonant.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char character ;
+    cout<<"Enter a charcter "<<endl;
+    cin>>character;
+    
+    if(character=='a'||'e'||'i'||'o'||'u') {
+        cout<<character<<" The charcter is vowel"<<endl;
+    }else {
+        cout<<character<<" The charcter is consonant";
+    }
+
+    return 0;
+}
